@@ -58,7 +58,6 @@
 				http://localhost:8089/repository/maven-snapshots/
 			</url>
 		</snapshotRepository>
-
 	</distributionManagement>
 	<dependencyManagement>
 		<dependencies>

@@ -4,10 +4,11 @@ pipeline {
 
     stages {
 
-        stage('Build Common Library') {
+        stage('Build & Deploy') {
 
             steps {
-                sh 'mvn clean install'
+
+                sh 'mvn clean deploy'
 
             }
         }

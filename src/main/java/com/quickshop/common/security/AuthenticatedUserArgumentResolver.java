@@ -1,4 +1,4 @@
-package com.quickshop.common.config;
+package com.quickshop.common.security;
 
 import com.quickshop.common.entity.AuthenticatedUser;
 import com.quickshop.common.utils.SecurityUtils;

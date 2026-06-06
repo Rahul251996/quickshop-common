@@ -1,4 +1,4 @@
-package com.quickshop.common.config;
+package com.quickshop.common.security;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.context.annotation.Bean;
@@ -33,7 +33,6 @@ public class SecurityAutoConfiguration {
                         oauth.jwt(jwt ->
                                 jwt.jwtAuthenticationConverter(
                                         converter)));
-
         return http.build();
     }
 }

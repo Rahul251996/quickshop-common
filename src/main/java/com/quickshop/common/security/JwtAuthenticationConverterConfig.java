@@ -1,6 +1,5 @@
-package com.quickshop.common.config;
+package com.quickshop.common.security;
 
-import com.quickshop.common.security.KeycloakRoleConverter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.convert.converter.Converter;
